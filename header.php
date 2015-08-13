@@ -16,34 +16,25 @@
 
 <body <?php body_class(); ?>>
 
-<header>
-  <div class="site-header">
-    <div class="header-logo">
-        <a href="index.html"><img src="<?php bloginfo('template_url') ?>/images/logo.png" alt="Innera"></a>
-    </div>
-    <div class="header-menu">
+  <header>
 
-                <?php wp_nav_menu(array(
-                    'theme_location' => 'primary',
-                    'container'=>'nav',
-                    'container_id'=>'nav',
-                    'menu_class'=>'sub'
-                 )) ?>
+    <nav class="menu">
+      <div><a href="index.html"><img class="header-logo" src="<?php bloginfo('template_url') ?>/images/logo.png" alt="Innera"></a></div>
+        
+        <div class="header-menu">
+            <?php wp_nav_menu(array(
+                'theme_location' => 'primary',
+                'container'=>'nav',
+                'container_id'=>'nav',
+                'menu_class'=>'sub'
+             )) ?>
+        </div>
 
+    </nav>
 
-<!--         <nav>
-            <ul>
-                <li class="sub"><a href="#">HOME</a></li>
-                <li class="sub"><a href="#">ABOUT</a></li>
-                <li class="sub"><a href="#">PROJECTS</a></li>
-                <li class="sub"><a href="#">BLOG</a></li>
-                <li class="sub"><a href="#">CONTACT</a></li>
-            </ul>
-        </nav> -->
-    </div>
-    <div class="header-toggle">
-        <i class="fa fa-bars"></i>
-    </div>
-</div>
+      <div class="header-toggle">
+          <i class="fa fa-bars"></i>
+      </div>
+      
 </header><!--/.header-->
 
