@@ -1,6 +1,6 @@
 <footer>
-  <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+  <div class="built">
+    <p>Built by Christina Gooyers & Jessica Taylor &copy; <?php echo date('Y'); ?></p>
   </div>
 </footer>
 
