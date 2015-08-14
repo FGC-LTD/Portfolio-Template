@@ -92,7 +92,7 @@ body {
 
     .sub {
       margin: 0;
-      padding: 100px 0 20px 0;
+      padding: 15px 0;
     }
 
     .sub li {
@@ -113,17 +113,28 @@ body {
       color: black;
     }
 
+
+    .main.about {
+      margin: 2% 5%;
+      p {
+        margin: 0;
+      }
+    }
+
     /* Footer Styles */
 
     .built {
       background: black;
       color: white;
       text-align: center;
-      position: relative;
-      bottom: -19px;
+      position: absolute;
+      bottom: 0;
       width: 100%;
+      p {
+        margin: 0;
+      }
     }
-    .built p {
+    .built p.footer {
       margin: .3%;
     }
 
