@@ -2,7 +2,12 @@
 <?php get_header(); ?>
 	
 		<div class="main-blog">
+		  	<div class="blog-header">
+		  		<h2><?php bloginfo( 'name' ); ?></h2>
+		  		<h3><?php bloginfo( 'description' ); ?></h3>
+		  	</div>
 		  <div class="container">
+
 
 		    <div class="content">
 		    		<?php get_template_part( 'loop', 'index' );	?>

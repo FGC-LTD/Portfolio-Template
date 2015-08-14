@@ -131,12 +131,56 @@ body {
     /* Index Styles */
     .main-blog {
 
-      .content {
-        float: left;
-        width: 50%;
+      .container {
+        width: 80%;
+        margin: 0 auto;
       }
+
+      .content {
+        // float: left;
+        width: 70%;
+        font-family: 'Montserrat', sans-serif;
+      }
+        .post {
+          background: white;
+          padding: 4%;
+        }
+          p {
+            color: grey;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+            font-size: 0.9rem,
+
+          }
+      
     }
 
+
+      .blog-header {
+          width: 80%;
+          margin: 0 auto;
+          padding: 5%;
+          background-color: rgba(0,0,0,0.6);
+          color: white;
+        
+      }
+
+
+    .entry-title a {
+      color: black;
+      font-size: 1.5rem;
+      text-transform: none;
+      letter-spacing: 1px;
+    }
+
+
+
+/* Sidebar styles */
+
+    .sidebar {
+      background: #F1F1F1;
+      font-family: 'Montserrat', sans-serif;
+    }
 
 
 
