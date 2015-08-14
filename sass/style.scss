@@ -27,7 +27,7 @@ body {
       height: 100%; 
       margin: 0;
       padding: 0;
-      font-size: 16;
+      font-size: 16px;
       font-family: 'Raleway', sans-serif;
       font-weight: 500;
       color: #000;
@@ -40,11 +40,13 @@ body {
     }
 
     .container {
+      display: flex;
+      justify-content: flex-start;
       margin: 3% 5%;
     }
 
     h2 {
-      font-size: 3.7em;
+      font-size: 3rem;
       color: white;
       text-transform: uppercase;
       letter-spacing: 4px;
@@ -64,15 +66,21 @@ body {
     }
 
   /* Nav Styles */
-
-    #nav {
-      background: white;
-      position: relative;
-      left: 82%;
-      top: 0;
-      width: 12%;
+    .flex-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      .header-menu {
+        background: white;
+      }
+      #nav {
+        background: white;
+        
+        li:hover {
+        background: #fff000;
+        width: 100%;
+        }
+      }
     }
-
     .header-logo {
       width: 10%;
       position: absolute;
@@ -88,13 +96,13 @@ body {
     }
 
     .sub li {
-      display: block;
+      list-style-type: none;
       margin: 0;
       padding: 15px 35px;
       text-transform: uppercase;
       font-family: 'Montserrat', sans-serif;
-        font-size: 12px;
-        font-weight: 700;
+      font-size: 12px;
+      font-weight: 700;
     }
 
     .sub li:hover {
@@ -111,8 +119,8 @@ body {
       background: black;
       color: white;
       text-align: center;
-      position: absolute;
-      bottom: 0;
+      position: relative;
+      bottom: -19px;
       width: 100%;
     }
     .built p {
@@ -128,3 +136,9 @@ body {
         width: 50%;
       }
     }
+
+
+
+
+
+    
