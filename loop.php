@@ -19,7 +19,9 @@
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 			<div class= "tag-display">
-				<p><?php the_tags( '<ul><li>', '</li><li>', '</li></ul>' );?></p>
+				<?php the_tags( '<ul><li>', '</li><li>', '</li></ul>' );?>
+				<?php the_date() ?>
+
 			</div>
 
 			<h2 class="entry-title">
