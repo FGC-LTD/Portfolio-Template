@@ -92,7 +92,7 @@ body {
 
     .sub {
       margin: 0;
-      padding: 100px 0 20px 0;
+      padding: 15px 0;
     }
 
     .sub li {
@@ -111,6 +111,14 @@ body {
     .sub a {
       text-decoration: none;
       color: black;
+    }
+
+
+    .main.about {
+      margin: 2% 5%;
+      p {
+        margin: 0;
+      }
     }
 
     /* Footer Styles */
