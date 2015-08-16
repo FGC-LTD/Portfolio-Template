@@ -1,9 +1,7 @@
 a {
 	color: black;
 	text-decoration: none;
-	&:hover {
-		color: #D424B1;
-	}
+
 }
 
 /* paragraphs */
@@ -95,3 +93,9 @@ img {
 	float: left;
 	clear: both;
 }
+
+/* Blog Specifc */
+a:hover {
+
+		background: yellow;
+	}
