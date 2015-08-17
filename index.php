@@ -17,4 +17,5 @@
 
 		  </div> <!-- /.container -->
 		</div> <!-- /.main -->
+		<?php get_footer(); ?>
 	
