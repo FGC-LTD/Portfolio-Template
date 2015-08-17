@@ -23,7 +23,7 @@ Default Styling
 =============================================================================
 */
 html {
-  background: url(images/slide-1.jpg) no-repeat top center;
+  background: url(images/post-01.jpg) no-repeat top center;
   background-size: cover;
 }
 
@@ -187,7 +187,20 @@ body {
       letter-spacing: 1px;
     }
 
+    .tag-display ul {
+      padding: 0 
+    }
+    .tag-display li {
+      display: inline-block;
+      margin-right: 3%;
+      background: yellow;
 
+    }
+
+    .type-post:hover {
+      background: #F1F1F1;
+    
+    }
 
 /* Sidebar styles */
 
