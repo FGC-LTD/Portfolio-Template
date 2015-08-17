@@ -34,9 +34,9 @@
         </div>
   </div> 
 
-      <div class="header-toggle">
+<!--       <div class="header-toggle">
           <i class="fa fa-bars"></i>
-      </div>
+      </div> -->
       
 </header><!--/.header-->
 
